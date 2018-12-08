@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Sample</title>
+</head>
+<body>
+    <header>
+        <h1>Form Sample</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Form</h2>
+        <form method="POST" action="https://formspree.io/pavlo110502@gmail.com">
+            <h2>Answer the question!</h2>
+            <label>
+                Який тег означає початок HTML-документу?<input type="text" placeholder="Введіть відповідь"
+                             name="Який тег означає початок HTML-документу?" required>
+            </label>
+            <br>
+            <label>
+                Який тег означає назву веб-сторінки?<input type="text" placeholder="Введіть відповідь"
+                             name="Який тег означає назву веб-сторінки?" required>
+            </label>
+            <br>
+            <label>
+                Який тег відповідає за напівжирний шрифт?<input type="text" placeholder="Введіть відповідь"
+                             name="Який тег відповідає за напівжирний шрифт?" required>
+            </label>
+            <br>
+            <label>
+                Який тег відповідає за розмір шрифту?<input type="text" placeholder="Введіть відповідь"
+                             name="Який тег відповідає за розмір шрифту?" required>
+            </label>
+            <br>
+            <h2>Register</h2>
+            <label for="user-name">User name:</label>
+            <input id="user-name" type="text" placeholder="User name" name="user-name" required>
+            <br>
+            <label>
+                User email:<input type="email" placeholder="User email"
+                             name="user-email" required>
+            </label>
+            <br>
+            <label>
+                User password: <input type="password" placeholder="Password"
+                                name="password">
+            </label>
+            <br>
+            <label>Gender:</label>
+            <label>
+                <input type="radio" name="gender" value="male" checked>
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">
+                Other
+            </label>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </section>
+    <footer>
+        <p><b>Copyright Example.com 2018</b></p>
+    </footer>
+</body>
+</html>
